@@ -1,35 +1,53 @@
 {
   "categories": [
     {
-      "title": "Mobile Development",
-      "skills": [
-        { "name": "Flutter", "level": 3, "icon": "skill-icons:flutter-dark" },
-        { "name": "Dart", "level": 3, "icon": "skill-icons:dart-dark" },
-        { "name": "Kotlin", "level": 1, "icon": "skill-icons:kotlin-dark" }
-      ]
-    },
-    {
       "title": "Frontend",
       "skills": [
-        { "name": "Astro", "level": 2, "icon": "skill-icons:astro" },
-        { "name": "HTML", "level": 2, "icon": "skill-icons:html" },
-        { "name": "CSS", "level": 2, "icon": "skill-icons:css" },
-        { "name": "Tailwind CSS", "level": 1, "icon": "skill-icons:tailwindcss-dark" }
+                { "name": "JavaScript", "level": 3, "icon": "skill-icons:javascript" },
+        { "name": "Next.js", "level": 3, "icon": "skill-icons:nextjs-dark" },
+        { "name": "React.js", "level": 3, "icon": "skill-icons:react-dark" },
+        { "name": "TypeScript", "level": 3, "icon": "skill-icons:typescript" },
+        { "name": "Tailwind CSS", "level": 3, "icon": "skill-icons:tailwindcss-dark" },
+        { "name": "HTML 5", "level": 3, "icon": "skill-icons:html" },
+        { "name": "CSS 3", "level": 3, "icon": "skill-icons:css" }
       ]
     },
     {
       "title": "Backend",
       "skills": [
-        { "name": "FastAPI", "level": 2, "icon": "skill-icons:fastapi" },
-        { "name": "Python", "level": 2, "icon": "skill-icons:python-dark" },
-        { "name": "Firebase", "level": 3, "icon": "vscode-icons:file-type-firebase" }
+        { "name": "Node.js", "level": 2, "icon": "skill-icons:nodejs-dark" },
+        { "name": "Express.js", "level": 2, "icon": "skill-icons:expressjs-dark" },
+        { "name": "Java", "level": 1, "icon": "skill-icons:java-dark" },
+        { "name": "Spring Boot", "level": 1, "icon": "skill-icons:spring-dark" }
       ]
     },
     {
-      "title": "Database",
+      "title": "Database & ORM",
       "skills": [
-        { "name": "SQLite", "level": 3, "icon": "skill-icons:sqlite" },
-        { "name": "PostgreSQL", "level": 2, "icon": "skill-icons:postgresql-dark" }
+        { "name": "PostgreSQL", "level": 2, "icon": "skill-icons:postgresql-dark" },
+        { "name": "Prisma", "level": 2, "icon": "skill-icons:prisma" },
+        { "name": "Supabase", "level": 2, "icon": "skill-icons:supabase-dark" }
+      ]
+    },
+    {
+      "title": "DevOps & Cloud",
+      "skills": [        
+        { "name": "GitHub", "level": 3, "icon": "skill-icons:github-dark" },
+        { "name": "AWS", "level": 1, "icon": "skill-icons:aws-dark" },
+        { "name": "Google Cloud", "level": 1, "icon": "skill-icons:gcp-dark" },
+        { "name": "Docker", "level": 1, "icon": "skill-icons:docker" },
+        { "name": "Git", "level": 1, "icon": "skill-icons:git" }
+
+      ]
+    },
+    {
+      "title": "Testing & Tools",
+      "skills": [
+        { "name": "Postman", "level": 3, "icon": "skill-icons:postman" },   
+        { "name": "VS Code", "level": 3, "icon": "skill-icons:vscode-dark" }  ,
+        { "name": "Figma", "level": 2, "icon": "skill-icons:figma-dark" },
+        { "name": "Jest", "level": 1, "icon": "skill-icons:jest" }
+       
       ]
     }
   ]

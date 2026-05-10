@@ -1,20 +1,49 @@
 [
   {
-    "title": "Awesome Website",
-    "description": "A high-performance, SEO-optimized web application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-01.webp", "astro-02.jpeg"],
-    "tech": ["Astro", "Tailwind"],
+    "title": "Fethiye Kariyer",
+    "description": "Led the frontend development of a centralized job search platform for the Fethiye Chamber of Commerce.",
+    "images": ["fethiyekariyer.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
     "platforms": ["web"],
-    "link": "https://astro.build/themes/details/career-portfolio-data-driven-astro-ssg/",
-    "category": "Published Website"
+    "link": "https://fethiyekariyer.com/",
+    "category": "Institutional Projects"
   },
   {
-    "title": "Demo Mobile App",
-    "description": "A high-performance mobile application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-02.jpeg", "#"],
-    "tech": ["Flutter", "Dart", "REST API"],
-    "platforms": ["apple-ios", "android"],
-    "link": "https://github.com/nbakh16/career-portfolio-template",
-    "category": "Hobby"
+    "title": "Yat Durağı",
+    "description": "I contributed to the redesign of a yacht rental website’s frontend, implementing a modern design concept.",
+    "images": ["yatduragi.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://yatduragi.com/",
+    "category": "Tourism & Hospitality Projects"
+  },
+  {
+    "title": "Projede Fırsat",
+    "description": "I played a key role in the frontend development of a platform that enables users to explore and evaluate real estate investment projects across Turkey in one place.",
+    "images": ["projedefirsat.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://projedefirsat.com/",
+    "category": "Real Estate Projects"
+  }
+  ,
+  {
+    "title": "Villa Box",
+    "description": "I played a key role in the frontend development of a platform that enables users to explore and evaluate real estate investment projects across Turkey in one place.",
+    "images": ["villabox.png", "villabox2.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://www.villaboxturkey.com/",
+    "category": "Tourism & Hospitality Projects"
+  }
+  ,
+  {
+    "title": "Puanla Bizi",
+    "description": "I designed and developed the end-to-end architecture of a geo-based system that enables users to evaluate only the local officials in their own region.",
+    "images": ["puanlabizi.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://puanlabizi.com/",
+    "category": "Civic Tech Projects"
   }
 ]

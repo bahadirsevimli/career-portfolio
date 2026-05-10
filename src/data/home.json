@@ -1,22 +1,22 @@
 {
-  "name": "John Doe",
-  "photoUrl": "favicon.svg",
-  "intro": "A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.",
-  "introHtml": "A brief, compelling introduction about who you are and what you do. Mention your core <span class='text-white font-bold'>philosophy</span>, your passion for building digital products, and your drive for creating <span class='text-white font-bold'>efficient</span>, <span class='text-white font-bold'>high-impact</span> solutions.",
-  "webpageTitle": "John Doe",
-  "resumeUrl": "https://example-files.online-convert.com/document/pdf/example.pdf",
+  "name": "Bahadır Sevimli",
+  "photoUrl": "bahadirsevimli.png",
+  "intro": "Hello! I am a Full-Stack Developer focused on building scalable, user-centric web applications using modern frontend and backend technologies. I create clean, maintainable, and high-performance solutions with a strong focus on user experience and intuitive interfaces. Detail-oriented, collaborative, and committed to continuous learning, I enjoy exploring new technologies and applying them to my projects.",
+  "introHtml": "Hello! I am a Full-Stack Developer focused on building scalable, user-centric web applications using modern frontend and backend technologies. I create clean, maintainable, and high-performance solutions with a strong focus on user experience and intuitive interfaces. Detail-oriented, collaborative, and committed to continuous learning, I enjoy exploring new technologies and applying them to my projects.",
+  "webpageTitle": "Bahadır Sevimli",
+  "resumeUrl": "https://plato-static.s3.eu-central-1.amazonaws.com/fethiyekariyer/cv/a718c19b-2742-4b23-90d3-96a9cbf39340.pdf",
 
   "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
   "socials": [
     {
       "name": "GitHub",
-      "url": "https://github.com/[YOUR_USER_NAME]",
+      "url": "https://github.com/bahadirsevimli",
       "icon": "mdi:github",
       "showInContact": true
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/[YOUR_USER_NAME]",
+      "url": "https://www.linkedin.com/in/bahadirsevimli/",
       "icon": "mdi:linkedin",
       "showInContact": true
     },
@@ -34,13 +34,13 @@
     },
     {
       "name": "Email",
-      "url": "mailto:your-mail@example.com",
+      "url": "mailto:bahadirsevimli@gmail.com",
       "icon": "mdi:email",
       "showInContact": true
     },
     {
       "name": "Whatsapp",
-      "url": "https://wa.me/[YOUR_WHATSAPP_NUMBER]",
+      "url": "https://wa.me/5437306262",
       "icon": "mdi:whatsapp",
       "showInContact": true
     },
@@ -58,7 +58,7 @@
     },
     {
       "name": "Instagram",
-      "url": "#",
+      "url": "https://www.instagram.com/bahadir.sevimli",
       "icon": "mdi:instagram",
       "showInContact": false
     },
