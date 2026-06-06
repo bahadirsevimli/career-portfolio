@@ -29,7 +29,7 @@
   ,
   {
     "title": "Villa Box",
-    "description": "I played a key role in the frontend development of a platform that enables users to explore and evaluate real estate investment projects across Turkey in one place.",
+    "description": "Developed a villa rental platform that allows users to browse, filter, and book villas with a clean and responsive interface.",
     "images": ["villabox.png", "villabox2.png"],
     "tech": ["React", "Typescript", "tailwindcss"],
     "platforms": ["web"],
@@ -45,5 +45,24 @@
     "platforms": ["web"],
     "link": "https://puanlabizi.com/",
     "category": "Civic Tech Projects"
+  },
+  {
+    "title": "Bam-Boo Restaurant",
+    "description": "Designed and developed a responsive restaurant website that presents the brand, atmosphere, and essential information through a clean and modern interface.",
+    "images": ["bamboo.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://www.bamboorestaurantbar.com/",
+    "category": "Restaurant Projects"
+  }
+  ,
+  {
+    "title": "Hill House Hotel",
+    "description": "Designed and developed a responsive hotel website that presents the brand, atmosphere, and essential information through a clean and modern interface.",
+    "images": ["hillhouse.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://www.hillhousehotel.com/",
+    "category": "Tourism & Hospitality Projects"
   }
 ]
