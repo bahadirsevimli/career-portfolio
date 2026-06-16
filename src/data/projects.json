@@ -65,4 +65,14 @@
     "link": "https://www.hillhousehotel.com/",
     "category": "Tourism & Hospitality Projects"
   }
+    ,
+  {
+    "title": "Mektra",
+    "description": "Designed and developed a responsive showcase website for an industrial heating and installation solutions company, presenting its product catalog, services, and technical expertise through a clean and modern interface.",
+    "images": ["mektra.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://www.mektra.com.tr/",
+    "category": "E-commerce Projects"
+  }
 ]
