@@ -1,6 +1,8 @@
 ---
 import ProjectCard from './project-card.astro';
 import projectsData from '../data/projects.json';
+
+const featuredProjects = projectsData.slice(0, 3);
 ---
 
 <section id="projects" class="section-container overflow-hidden">
@@ -15,9 +17,19 @@ import projectsData from '../data/projects.json';
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {projectsData.map((project) => (
+      {featuredProjects.map((project) => (
         <ProjectCard project={project} />
       ))}
+    </div>
+
+    <div class="mt-12 flex justify-center project-header">
+      <a
+        href="/projects"
+        class="inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-6 py-3 text-sm font-body font-semibold text-accent hover:border-accent/40 hover:bg-accent/10 transition-all duration-300"
+      >
+        View All Projects
+        <span aria-hidden="true">&rarr;</span>
+      </a>
     </div>
   </div>
 </section>
@@ -48,40 +60,40 @@ import projectsData from '../data/projects.json';
 
 <script>
   const initProjectReveal = () => {
-    const header = document.querySelector('.project-header');
+    const headers = document.querySelectorAll('.project-header');
     const cards = document.querySelectorAll('.project-card');
-    
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           const target = entry.target as HTMLElement;
-          
-          // Check if the intersecting element is the header
+
+          // Check if the intersecting element is a header
           if (target.classList.contains('project-header')) {
             target.classList.add('reveal');
             observer.unobserve(target);
-          } 
+          }
           // Check if the intersecting element is a project card
           else if (target.classList.contains('project-card')) {
             const index = Array.from(cards).indexOf(target);
-            
+
             // Stagger effect based on row position (only for cards)
             setTimeout(() => {
               target.classList.add('reveal');
             }, (index % 3) * 150);
-            
+
             observer.unobserve(target);
           }
         }
       });
-    }, { 
-      threshold: 0.15, 
-      rootMargin: '0px 0px -10px 0px' 
+    }, {
+      threshold: 0.15,
+      rootMargin: '0px 0px -10px 0px'
     });
 
-    // Observe the header
-    if (header) observer.observe(header);
-    
+    // Observe all headers
+    headers.forEach(header => observer.observe(header));
+
     // Observe all cards
     cards.forEach(card => observer.observe(card));
   };

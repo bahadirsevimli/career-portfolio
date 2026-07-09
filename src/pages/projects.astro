@@ -1,0 +1,49 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Nav from "../components/nav.astro";
+import Contact from "../components/contact.astro";
+import ProjectCard from "../components/project-card.astro";
+import projectsData from "../data/projects.json";
+---
+
+<Layout title="All Projects">
+  <Nav />
+
+  <section class="section-container overflow-hidden pt-32 md:pt-40">
+    <div class="container mx-auto">
+      <div class="mb-16">
+        <a
+          href="/#projects"
+          class="inline-flex items-center gap-2 text-sm text-accent/75 hover:text-accent transition-colors mb-6"
+        >
+          <span aria-hidden="true">&larr;</span> Back to Home
+        </a>
+        <h1 class="text-3xl md:text-4xl font-heading font-bold text-maintext mb-2 flex items-center gap-4">
+          <span class="text-accent">/</span> All Projects
+        </h1>
+        <p class="text-subtext font-body text-sm max-w-md">
+          A complete list of professional work, published apps, and experimental prototypes.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {projectsData.map((project) => (
+          <ProjectCard project={project} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Contact />
+</Layout>
+
+<script>
+  function revealAllProjectCards() {
+    document.querySelectorAll('.project-card').forEach((card) => {
+      card.classList.add('reveal');
+    });
+  }
+
+  revealAllProjectCards();
+  document.addEventListener('astro:after-swap', revealAllProjectCards);
+</script>

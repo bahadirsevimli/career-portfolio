@@ -74,5 +74,41 @@
     "platforms": ["web"],
     "link": "https://www.mektra.com.tr/",
     "category": "E-commerce Projects"
+  },
+  {
+    "title": "Afkule",
+    "description": "Designed and developed an immersive storytelling website for a historic monastery, combining full-screen visuals and elegant typography to present its architecture and heritage.",
+    "images": ["afkule.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://www.afkule.com.tr/",
+    "category": "Tourism & Hospitality Projects"
+  },
+  {
+    "title": "JT Dental",
+    "description": "Developed a multi-page website for a dental tourism clinic, featuring service and package listings, an accommodation section, and a blog to guide international patients through their treatment journey.",
+    "images": ["jtdental.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://www.jtdental.com.tr/",
+    "category": "Healthcare Projects"
+  },
+  {
+    "title": "Likya Çevre",
+    "description": "Built a corporate website for an environmental engineering and consultancy firm, showcasing its services, certifications, and sustainability goals with a clean institutional layout.",
+    "images": ["likyacevre.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://likyacevre.com/",
+    "category": "Institutional Projects"
+  },
+  {
+    "title": "Ciello Suites",
+    "description": "Developed a boutique hotel website presenting suites, villas, and amenities with a warm, image-driven design tailored to attract guests looking for a relaxing getaway.",
+    "images": ["ciello.png"],
+    "tech": ["React", "Typescript", "tailwindcss"],
+    "platforms": ["web"],
+    "link": "https://www.ciellosuites.com/",
+    "category": "Tourism & Hospitality Projects"
   }
 ]
